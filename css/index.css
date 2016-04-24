@@ -1,0 +1,186 @@
+body,p,h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft Yahei', Tahoma, Arial, Helvetica, Simsun, STHeiti;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+hr{
+    margin:15px 0 15px 0;
+}
+/*------------------------------------------------*/
+nav{
+    width: 100%;
+    height: 100px;
+    background-image:url("../imgs/top_bg.png");
+    background-repeat:no-repeat;
+    background-position: bottom;
+    background-color: rgb(255,207,5) ;
+}
+nav>span{
+    font-size: 40px;
+    font-weight: bold;
+    display: block;
+    line-height: 100px;
+    text-align: center;
+}
+.nav_header{
+    width: 330px;
+    height: 30px;
+    background-color: rgb(255,207,5) ;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    text-align: center;
+    border-radius: 15px;
+    z-index: 1000;
+}
+.nav_header a{
+    line-height: 30px;
+}
+/*-------------------------------------------------*/
+.container,.img_red,.img_purple,.img_blue1,.person_bases,
+.img_blue,.img_yellow,.img_second,.img_first,.me{
+width: 100%;
+height: 615px;
+background-position: center;
+background-repeat: no-repeat;
+position: absolute;
+}
+.container{
+    position:relative;
+    background-image: url("../imgs/main_bg.jpg");
+    background-color: #333;
+    overflow: hidden;
+}
+.me{
+    color: #fff;
+    font-size: 14px;
+    background-image: url("../imgs/person.png");
+}
+.person_bases p{
+    width: 300px;
+}
+.person_bases .skillBases{
+    position:absolute;
+    top: 80px;
+    left: 250px;
+}
+.person_bases .person{
+    position:absolute;
+    top: 100px;
+    right: 300px;
+}
+.person_bases .work{
+    position:absolute;
+    top: 250px;
+    right: 300px;
+}
+.person_bases p span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.img_red{
+    background-image: url("../imgs/main_img_red.png");
+}
+.img_purple{
+    background-image: url("../imgs/main_img_purple.png");
+}
+.img_blue1{
+    background-image: url("../imgs/main_img_blue1.png");
+}
+.img_blue{
+    background-image: url("../imgs/main_img_blue.png");
+}
+.img_yellow{
+    background-image: url("../imgs/main_img_yellow.png");
+}
+.img_second{
+    background-image: url("../imgs/main_img_second.png");
+}
+.img_first{
+    background-image: url("../imgs/main_img_first.png");
+}
+.person_bases{
+    font-size: 14px;
+}
+
+/*----------------------------------------------------------*/
+.project{
+    background: url("../imgs/main_bg.png") repeat;
+    width: 100%;
+    padding-top: 20px;
+    color: #fff;
+    display: table;
+}
+.project_left{
+    width: 390px;
+    height: 300px;
+    float: left;
+    background: url("../imgs/img_title.png") no-repeat;
+}
+.aboutme_right{
+    float: right;
+    border-left: 2px solid #fff;
+    width: 430px;
+    height: 280px;
+    margin-top: 10px;
+    background: url("../imgs/img_title.png") no-repeat 30px 0;
+}
+.project_left span,.aboutme_right span{
+    display: block;
+    font-size: 60px;
+    position: relative;
+    font-style: italic;
+}
+.project_left span{
+    top:70px;
+    left: 70px;
+}
+.project_right{
+    width: 970px;
+    float:right ;
+    padding: 30px;
+    border-left:2px solid #fff ;
+}
+
+.aboutme{
+    height: 300px;
+    background: url("../imgs/header.jpg") no-repeat -400px 0;
+    overflow: hidden;
+}
+.aboutme_right span{
+    color: #fff;
+    top: 70px;
+    left:40px;
+}
+.aboutme_right i,.project_left i{
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    top: 70px;
+    left: 120px;
+}
+.project_left i{
+    left: 50px;
+}
+.aboutme_left{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background:url("../imgs/contactMe.png") no-repeat -45px -60px ;
+    position: relative;
+    left: 410px;
+    top: 100px;
+}
+.aboutme_left p{
+    position: absolute;
+    left: 290px;
+    top: 30px;
+    font-size: 20px;
+    color: #000;
+    line-height: 40px;
+}

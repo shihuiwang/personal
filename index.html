@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/index.js"></script>
+    <title></title>
+</head>
+<body>
+<nav id="home">
+    <span>石辉</span>
+    <div class="nav_header">
+        <a href="#" data-home="home">首页 <span>|</span></a>
+        <a href="#" data-aboutme="aboutme">关于我 <span>|</span></a>
+        <a href="#" data-project="project">作品 <span>|</span></a>
+        <a href="#" data-skills="skills">技能 <span>|</span></a>
+        <a href="#" data-contact="contact">联系我 </a>
+    </div>
+</nav>
+    <div class="container" id="aboutme">
+        <div class="img_red draw"></div>
+        <div class="img_purple draw"></div>
+        <div class="img_blue1 draw"></div>
+        <div class="img_blue draw"></div>
+        <div class="me"></div>
+        <div class="person_bases draw">
+            <p class="skillBases">
+                <span>基础技能：</span> <br/>
+                熟悉HTML5/CSS3/JavaScript/jQuery，了解W3C各项标准；
+                了解AngularJS、jQueryMobile、Bootstrap框架的使用；
+                能使用Ajax实现与服务器的异步通信；
+                熟悉Photoshop切图、抠图等操作 ；
+                了解并能使用PHP、MySQL、JSON、Ajax.
+            </p>
+            <p class="person">
+                <span>个人简介：</span><br/>
+                王石辉/1992年5月/湛江/广州城市职业学院大专；<br/>
+                爱好：旅行、看书、运动、电玩；<br/>
+                梦想：游历世界；
+            </p>
+            <p class="work">
+                <span>工作/培训经历：</span><br/>
+                培训经历：2015-2016 达内时代科技web前端工程师培训；<br/>
+                2013-2015 保利商用股份有限公司工程部维修组设备管理；
+            </p>
+        </div>
+
+
+        <div class="img_yellow draw"></div>
+        <div class="img_second draw"></div>
+        <div class="img_first draw"></div>
+    </div>
+    <div class="project" id="project">
+        <div class="project_left">
+            <span><b>作品/项目</b></span>
+            <i>Project</i>
+        </div>
+        <div class="project_right">
+       <h3> 一、项目名称：一智通首页和JD详情页 (HTML+CSS+JavaScript)</h3>
+         <p>责任描述：使用HTML和CSS对页面进行布局，通过JS对页面的各种事件进行操作以及对DOM树上的节点进行增、删、改、查的操作、独立完成首页的构建、布局及添加JS事件，功能、 完成产品详情页的布局及添加图片的显示和切换功能。<br/>
+
+             项目收获:<br/>
+             1. 分析页面架构规划代码编写，掌握float、display、position等CSS属性的作用，娴熟利用margin 和padding进行内容排版；<br/>
+             2. 利用编写弹出一级菜单和banner轮播，加深对JS数组API和添加点击等事件的运用；<br/>
+             3. 能更好地对DOM树查找、添加元素，并为元素添加函数事件 ；<br/>
+             4. 解决遇到的问题 ：<br/>
+             ①子元素浮动后父容器失去高宽——>为父容器添加overflow:hidden或display:table ；<br/>
+             ②position绝对定位：要看父元素有没position属性，如果没有则看再上一级，都没有则相对于body来定位 。</p>
+            <hr/>
+         <h3>二、项目名称：2048游戏(HTML+CSS+JavaScript)</h3>
+        <p>   项目描述：通过少量HTML、css进行基本构架，利用JS中面向对象与构造函数的结合来自动生成元素进行再次布局；还有就是对随机位置随机生成的2或4操作实现四个方向上相同字的相加以及游戏开始和结束的相关。<br/>
+            项目收获：<br/>
+            1.掌握了使用JS来动态生成HTML元素；<br/>
+            2.对面向对象和构造函数有了初步的理解以及了解它们的基本用法；<br/>
+            3.掌握了对象封装的技巧。<br/>
+        </p>
+            <hr/>
+           <h3>三、项目名称： EatWhat订餐App（Bootstrap+Angular）</h3>
+           <p> 项目描述： 利用Bootstrap对页面进行响应式布局以适应各种媒体设备，通过Angular.js和服务器端交互获取菜单、用户信息数据以及发送订单数据给服务器，实现用户登录、注册、订餐功能；<br/>
+            项目收获：
+               <br/>1.通过Bootstrap、Angular框架学会如何使用框架、根据框架的手册编写想要的页面和效果；<br/>
+            2.通过深入了解Bootstrap学会了更好的编写css，定制Bootstrap样式时学会使用less编写动态样式，less语法类似css但却拥有变量、继承、运算、函数等比css好的动态语言特点，用less更方便；<br/>
+            3.更加明白页面到服务器再到数据库的工作原理；学会编写简单的php和mysql；掌握了怎么请求、发送和存储数据
+        </p>
+            <hr/>
+        <h3>四、项目名称：飞机大战（canvas+JavaScript）</h3>
+        <p>项目描述：通过H5的画布功能进行绘画，同时，利用js面向对象对画布中的子弹和飞机进行绘画和操作 ；<br/>
+        项目收获：<br/>
+        1.更深刻理解了面向对象；使用用画布时，其中的对象不能使用DOM操作，但是使用面向对象编写时，就可以通过对象的属性和方法进行有层次的绘画以达到预期想要的效果 ；<br/>
+        2.同时，面向对象拥有自己方法和属性，进而减少全局变量和全局污染，面向对象中构造函数也可以实现代码的重复使用达到代码优化；<br/>
+        3.熟悉了HTML5的高级画布canvas的使用 。<br/>
+        </p>
+        </div>
+    </div>
+    <!--<div class="skills">-->
+
+    <!--</div>-->
+<div class="aboutme" id="contact">
+    <div class="aboutme_right">
+        <span><b>联系我</b></span>
+        <i>Contact Me</i>
+    </div>
+    <div class="aboutme_left">
+        <p>
+            phone:13427511574 <br/>
+            QQ:644724974 <br/>
+            Email:644724974@qq.com <br/>
+        </p>
+    </div>
+</div>
+</body>
+</html>
